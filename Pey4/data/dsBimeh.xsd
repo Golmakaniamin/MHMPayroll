@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsBimeh" targetNamespace="http://tempuri.org/dsBimeh.xsd" xmlns:mstns="http://tempuri.org/dsBimeh.xsd" xmlns="http://tempuri.org/dsBimeh.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsBimeh" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsBimeh" msprop:Generator_UserDSName="dsBimeh">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Tbl_process_Fill" msprop:Generator_TableClassName="Tbl_process_FillDataTable" msprop:Generator_TableVarName="tableTbl_process_Fill" msprop:Generator_TablePropName="Tbl_process_Fill" msprop:Generator_RowDeletingName="Tbl_process_FillRowDeleting" msprop:Generator_UserTableName="Tbl_process_Fill" msprop:Generator_RowChangingName="Tbl_process_FillRowChanging" msprop:Generator_RowEvHandlerName="Tbl_process_FillRowChangeEventHandler" msprop:Generator_RowDeletedName="Tbl_process_FillRowDeleted" msprop:Generator_RowEvArgName="Tbl_process_FillRowChangeEvent" msprop:Generator_RowChangedName="Tbl_process_FillRowChanged" msprop:Generator_RowClassName="Tbl_process_FillRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="tmpID" msprop:Generator_ColumnVarNameInTable="columntmpID" msprop:Generator_ColumnPropNameInRow="tmpID" msprop:Generator_ColumnPropNameInTable="tmpIDColumn" msprop:Generator_UserColumnName="tmpID" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Tbl_process_Fill" />
+      <xs:field xpath="mstns:tmpID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
